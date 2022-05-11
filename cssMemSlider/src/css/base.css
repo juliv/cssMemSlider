@@ -1,0 +1,32 @@
+:root {
+  --delay: 200ms;
+  --delay-slide: 1000ms;
+  --color-text: white;
+  --color-bg: gray;
+  --page-color: deepskyblue;
+  --page-color-active: white;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+.container {
+  max-width: 38rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1 {
+  margin: 0 0 1rem;
+  font: 2rem/1 Arial, sans-serif;
+  text-align: center;
+}
+
+@media (max-width: 550px) {
+  .container {
+    padding: 2rem 1rem;
+  }
+}

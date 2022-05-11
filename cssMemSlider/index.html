@@ -8,8 +8,79 @@
   <meta name="description" content="Task for RS School (JSFE2022Q1)">
   <meta name="author" content="juliv">
   <link rel="icon" type="image/png" sizes="64x64" href="favicon.png">
-  <link rel="stylesheet" href="src/css/common.css">
+  <link rel="stylesheet" href="src/css/vendor/normalize.css">
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/base.css">
+  <link rel="stylesheet" href="src/css/slides.css">
 </head>
 <body>
+
+<div class="container">
+
+  <h1>CSS Mem Slider</h1>
+
+  <div class="slides">
+
+    <div class="slides__items">
+
+      <input type="radio" name="slide" class="slide__input" id="slide--01" checked>
+      <div class="slide__item slide__item--01">
+        <img class="slide__img" src="src/images/mem--01.jpg" alt="mem--01">
+        <div class="slide__text">A mem creator?!</div>
+      </div>
+
+      <input type="radio" name="slide" class="slide__input" id="slide--02">
+      <div class="slide__item">
+        <img class="slide__img" src="src/images/mem--02.jpg" alt="mem--02">
+        <div class="slide__text">Johnny Depp</div>
+      </div>
+
+      <input type="radio" name="slide" class="slide__input" id="slide--03">
+      <div class="slide__item">
+        <img class="slide__img" src="src/images/mem--01.jpg" alt="mem--01">
+        <div class="slide__text">A mem creator?!</div>
+      </div>
+
+      <input type="radio" name="slide" class="slide__input" id="slide--04">
+      <div class="slide__item">
+        <img class="slide__img" src="src/images/mem--02.jpg" alt="mem--02">
+        <div class="slide__text">Johnny Depp</div>
+      </div>
+
+      <input type="radio" name="slide" class="slide__input" id="slide--05">
+      <div class="slide__item">
+        <img class="slide__img" src="src/images/mem--01.jpg" alt="mem--01">
+        <div class="slide__text">A mem creator?!</div>
+      </div>
+
+      <input type="radio" name="slide" class="slide__input" id="slide--06">
+      <div class="slide__item">
+        <img class="slide__img" src="src/images/mem--02.jpg" alt="mem--02">
+        <div class="slide__text">Johnny Depp</div>
+      </div>
+
+      <!-- Only for correct height `slides__items` -->
+      <div class="slide__item slide__item--fake">
+        <img class="slide__img" src="src/images/mem--01.jpg" alt="">
+        <div class="slide__text">&nbsp;</div>
+      </div>
+
+    </div>
+
+    <div class="slides__pages">
+      <div class="slides__pages__in">
+        <label tabindex="1" autofocus for="slide--01" class="page__item"></label>
+        <label tabindex="2" for="slide--02" class="page__item"></label>
+        <label tabindex="3" for="slide--03" class="page__item"></label>
+        <label tabindex="4" for="slide--04" class="page__item"></label>
+        <label tabindex="5" for="slide--05" class="page__item"></label>
+        <label tabindex="6" for="slide--06" class="page__item"></label>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
 </body>
 </html>
