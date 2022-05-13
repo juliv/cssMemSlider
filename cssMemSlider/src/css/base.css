@@ -2,13 +2,15 @@
   --delay: 200ms;
   --delay-slide: 1000ms;
   --color-text: white;
-  --color-bg: gray;
+  --color-bg: darkgray;
+  --slides-bg: slategrey;
   --page-color: deepskyblue;
   --page-color-active: white;
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font: 1rem/1.2 Tahoma, Arial, sans-serif;
+  font-weight: 400;
   color: var(--color-text);
   background: var(--color-bg);
 }
@@ -19,14 +21,29 @@ body {
   padding: 2rem;
 }
 
-h1 {
-  margin: 0 0 1rem;
-  font: 2rem/1 Arial, sans-serif;
+.header {
+  margin-bottom: 1rem;
+}
+.header h1 {
+  margin: 0;
+  font: 2rem/1 cursive, serif;
   text-align: center;
 }
 
-@media (max-width: 550px) {
+.footer {
+  margin-top: 1rem;
+  font-family: cursive, serif;
+  text-align: center;
+}
+.footer a {
+  color: lightblue;
+}
+.footer a:hover {
+  color: white;
+}
+
+@media (max-width: 599px) {
   .container {
-    padding: 2rem 1rem;
+    padding: 2rem 1.5rem;
   }
 }

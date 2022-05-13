@@ -11,3 +11,7 @@ img {
   vertical-align: middle;
   max-width: 100%;
 }
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
