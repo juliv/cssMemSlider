@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Mem Slider</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="robots" content="noindex,noarchive">
+  <meta name="description" content="Task for RS School (JSFE2022Q1)">
+  <meta name="author" content="juliv">
+  <link rel="icon" type="image/png" sizes="64x64" href="favicon.png">
+  <link rel="stylesheet" href="src/css/vendor/normalize.css">
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/base.css">
+  <link rel="stylesheet" href="src/css/slides.css">
+</head>
+<body>
+
+<div class="container">
+
+  <header class="header">
+    <h1>CSS Mem Slider</h1>
+  </header>
+
+  <main class="main">
+
+    <div class="slides">
+
+      <input type="radio" name="type" class="slide__radio slide__radio--type" id="type--scroll" checked>
+      <label for="type--scroll" class="slide-type__label">Scroll</label>
+
+      <input type="radio" name="type" class="slide__radio slide__radio--type" id="type--fade">
+      <label for="type--fade" class="slide-type__label">Fade</label>
+
+      <input type="radio" name="slide" class="slide__radio" id="slide--01" checked>
+      <input type="radio" name="slide" class="slide__radio" id="slide--02">
+      <input type="radio" name="slide" class="slide__radio" id="slide--03">
+      <input type="radio" name="slide" class="slide__radio" id="slide--04">
+      <input type="radio" name="slide" class="slide__radio" id="slide--05">
+      <input type="radio" name="slide" class="slide__radio" id="slide--06">
+
+      <div class="slides__images slides__items">
+        <div class="slides__images__wrapper slides__items__wrapper">
+          <div class="slide__item slide__img slide__img--01 slide__item--01"><img src="src/images/mem--01.jpg" alt=""></div>
+          <div class="slide__item slide__img slide__img--02 slide__item--02"><img src="src/images/mem--02.jpg" alt=""></div>
+          <div class="slide__item slide__img slide__img--03 slide__item--03"><img src="src/images/mem--03.jpg" alt=""></div>
+          <div class="slide__item slide__img slide__img--04 slide__item--04"><img src="src/images/mem--04.jpg" alt=""></div>
+          <div class="slide__item slide__img slide__img--05 slide__item--05"><img src="src/images/mem--05.jpg" alt=""></div>
+          <div class="slide__item slide__img slide__img--06 slide__item--06"><img src="src/images/mem--06.jpg" alt=""></div>
+        </div>
+      </div>
+
+      <div class="slides__texts slides__items">
+        <div class="slides__texts__wrapper slides__items__wrapper">
+          <div class="slide__item slide__text slide__text--01 slide__item--01">Очередь в туалет</div>
+          <div class="slide__item slide__text slide__text--02 slide__item--02">Просто будь на стиле</div>
+          <div class="slide__item slide__text slide__text--03 slide__item--03">Новый челлендж</div>
+          <div class="slide__item slide__text slide__text--04 slide__item--04">Рано мне ещё на танго&hellip;</div>
+          <div class="slide__item slide__text slide__text--05 slide__item--05">Это же тверк!</div>
+          <div class="slide__item slide__text slide__text--06 slide__item--06">Кто открыл бутылку?!</div>
+        </div>
+      </div>
+
+      <div class="slides__pager">
+        <label for="slide--01" class="page__item page__item--01"></label>
+        <label for="slide--02" class="page__item page__item--02"></label>
+        <label for="slide--03" class="page__item page__item--03"></label>
+        <label for="slide--04" class="page__item page__item--04"></label>
+        <label for="slide--05" class="page__item page__item--05"></label>
+        <label for="slide--06" class="page__item page__item--06"></label>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="copy">
+      Мемы от <a href="https://vk.com/pikachusalsa" target="_blank" rel="nofollow">Пикачу-сальса</a>
+    </div>
+  </footer>
+
+</div>
+
+</body>
+</html>
