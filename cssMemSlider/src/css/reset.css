@@ -3,10 +3,6 @@
   box-sizing: border-box;
 }
 
-html {
-  -webkit-text-size-adjust: 100%;
-}
-
 img {
   vertical-align: middle;
   max-width: 100%;

@@ -30,6 +30,10 @@ body {
   text-align: center;
 }
 
+.main {
+  text-align: center;
+}
+
 .footer {
   margin-top: 1rem;
   font-family: cursive, serif;

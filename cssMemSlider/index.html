@@ -22,70 +22,72 @@
   </header>
 
   <main class="main">
+
+    <input type="radio" name="type" class="slide-type__input" id="type--h-scroll" checked>
+    <label for="type--h-scroll" class="slide-type__label">H-scroll</label>
+
+    <input type="radio" name="type" class="slide-type__input" id="type--fade">
+    <label for="type--fade"     class="slide-type__label">Fade</label>
+
     <div class="slides">
+
+      <input type="radio" name="slide" class="slide__input" id="slide--01" checked>
+      <input type="radio" name="slide" class="slide__input" id="slide--02">
+      <input type="radio" name="slide" class="slide__input" id="slide--03">
+      <input type="radio" name="slide" class="slide__input" id="slide--04">
+      <input type="radio" name="slide" class="slide__input" id="slide--05">
+      <input type="radio" name="slide" class="slide__input" id="slide--06">
 
       <div class="slides__items">
 
-        <input type="radio" name="slide" class="slide__input" id="slide--01" checked>
         <div class="slide__item slide__item--01">
           <img class="slide__img" src="src/images/mem--01.jpg" alt="">
           <div class="slide__text">Очередь в туалет</div>
         </div>
 
-        <input type="radio" name="slide" class="slide__input" id="slide--02">
-        <div class="slide__item">
+        <div class="slide__item slide__item--02">
           <img class="slide__img" src="src/images/mem--02.jpg" alt="">
           <div class="slide__text">Просто будь на стиле</div>
         </div>
 
-        <input type="radio" name="slide" class="slide__input" id="slide--03">
-        <div class="slide__item">
+        <div class="slide__item slide__item--03">
           <img class="slide__img" src="src/images/mem--03.jpg" alt="">
           <div class="slide__text">Новый челлендж</div>
         </div>
 
-        <input type="radio" name="slide" class="slide__input" id="slide--04">
-        <div class="slide__item">
+        <div class="slide__item slide__item--04">
           <img class="slide__img" src="src/images/mem--04.jpg" alt="">
           <div class="slide__text">Рано мне ещё на танго&hellip;</div>
         </div>
 
-        <input type="radio" name="slide" class="slide__input" id="slide--05">
-        <div class="slide__item">
+        <div class="slide__item slide__item--05">
           <img class="slide__img" src="src/images/mem--05.jpg" alt="">
           <div class="slide__text">Это же тверк!</div>
         </div>
 
-        <input type="radio" name="slide" class="slide__input" id="slide--06">
-        <div class="slide__item">
+        <div class="slide__item slide__item--06">
           <img class="slide__img" src="src/images/mem--06.jpg" alt="">
           <div class="slide__text">Кто открыл бутылку?!</div>
         </div>
 
-        <!-- Only for correct height `slides__items` -->
-        <div class="slide__item slide__item--fake">
-          <img class="slide__img" src="src/images/mem--01.jpg" alt="">
-          <div class="slide__text">&nbsp;</div>
-        </div>
-
       </div>
 
-      <div class="slides__pages">
-        <div class="slides__pages__in">
-          <label tabindex="1" autofocus for="slide--01" class="page__item"></label>
-          <label tabindex="2" for="slide--02" class="page__item"></label>
-          <label tabindex="3" for="slide--03" class="page__item"></label>
-          <label tabindex="4" for="slide--04" class="page__item"></label>
-          <label tabindex="5" for="slide--05" class="page__item"></label>
-          <label tabindex="6" for="slide--06" class="page__item"></label>
-        </div>
+      <div class="slides__pager">
+        <label for="slide--01" class="page__item page__item--01"></label>
+        <label for="slide--02" class="page__item page__item--02"></label>
+        <label for="slide--03" class="page__item page__item--03"></label>
+        <label for="slide--04" class="page__item page__item--04"></label>
+        <label for="slide--05" class="page__item page__item--05"></label>
+        <label for="slide--06" class="page__item page__item--06"></label>
       </div>
 
     </div>
   </main>
 
   <footer class="footer">
-    <div class="copy">Мемы от <a href="https://vk.com/pikachusalsa" target="_blank">Пикачу-сальса</a></div>
+    <div class="copy">
+      Мемы от <a href="https://vk.com/pikachusalsa" target="_blank" rel="nofollow">Пикачу-сальса</a>
+    </div>
   </footer>
 
 </div>
