@@ -23,53 +23,41 @@
 
   <main class="main">
 
-    <input type="radio" name="type" class="slide-type__input" id="type--h-scroll" checked>
-    <label for="type--h-scroll" class="slide-type__label">H-scroll</label>
-
-    <input type="radio" name="type" class="slide-type__input" id="type--fade">
-    <label for="type--fade"     class="slide-type__label">Fade</label>
-
     <div class="slides">
 
-      <input type="radio" name="slide" class="slide__input" id="slide--01" checked>
-      <input type="radio" name="slide" class="slide__input" id="slide--02">
-      <input type="radio" name="slide" class="slide__input" id="slide--03">
-      <input type="radio" name="slide" class="slide__input" id="slide--04">
-      <input type="radio" name="slide" class="slide__input" id="slide--05">
-      <input type="radio" name="slide" class="slide__input" id="slide--06">
+      <input type="radio" name="type" class="slide__radio slide__radio--type" id="type--scroll" checked>
+      <label for="type--scroll" class="slide-type__label">Scroll</label>
 
-      <div class="slides__items">
+      <input type="radio" name="type" class="slide__radio slide__radio--type" id="type--fade">
+      <label for="type--fade" class="slide-type__label">Fade</label>
 
-        <div class="slide__item slide__item--01">
-          <img class="slide__img" src="src/images/mem--01.jpg" alt="">
-          <div class="slide__text">Очередь в туалет</div>
+      <input type="radio" name="slide" class="slide__radio" id="slide--01" checked>
+      <input type="radio" name="slide" class="slide__radio" id="slide--02">
+      <input type="radio" name="slide" class="slide__radio" id="slide--03">
+      <input type="radio" name="slide" class="slide__radio" id="slide--04">
+      <input type="radio" name="slide" class="slide__radio" id="slide--05">
+      <input type="radio" name="slide" class="slide__radio" id="slide--06">
+
+      <div class="slides__images slides__items">
+        <div class="slides__images__wrapper slides__items__wrapper">
+          <div class="slide__item slide__img slide__img--01 slide__item--01"><img src="src/images/mem--01.jpg" alt=""></div>
+          <div class="slide__item slide__img slide__img--02 slide__item--02"><img src="src/images/mem--02.jpg" alt=""></div>
+          <div class="slide__item slide__img slide__img--03 slide__item--03"><img src="src/images/mem--03.jpg" alt=""></div>
+          <div class="slide__item slide__img slide__img--04 slide__item--04"><img src="src/images/mem--04.jpg" alt=""></div>
+          <div class="slide__item slide__img slide__img--05 slide__item--05"><img src="src/images/mem--05.jpg" alt=""></div>
+          <div class="slide__item slide__img slide__img--06 slide__item--06"><img src="src/images/mem--06.jpg" alt=""></div>
         </div>
+      </div>
 
-        <div class="slide__item slide__item--02">
-          <img class="slide__img" src="src/images/mem--02.jpg" alt="">
-          <div class="slide__text">Просто будь на стиле</div>
+      <div class="slides__texts slides__items">
+        <div class="slides__texts__wrapper slides__items__wrapper">
+          <div class="slide__item slide__text slide__text--01 slide__item--01">Очередь в туалет Очередь в туалет Очередь в туалет</div>
+          <div class="slide__item slide__text slide__text--02 slide__item--02">Просто будь на стиле</div>
+          <div class="slide__item slide__text slide__text--03 slide__item--03">Новый челлендж</div>
+          <div class="slide__item slide__text slide__text--04 slide__item--04">Рано мне ещё на танго&hellip;</div>
+          <div class="slide__item slide__text slide__text--05 slide__item--05">Это же тверк!</div>
+          <div class="slide__item slide__text slide__text--06 slide__item--06">Кто открыл бутылку?!</div>
         </div>
-
-        <div class="slide__item slide__item--03">
-          <img class="slide__img" src="src/images/mem--03.jpg" alt="">
-          <div class="slide__text">Новый челлендж</div>
-        </div>
-
-        <div class="slide__item slide__item--04">
-          <img class="slide__img" src="src/images/mem--04.jpg" alt="">
-          <div class="slide__text">Рано мне ещё на танго&hellip;</div>
-        </div>
-
-        <div class="slide__item slide__item--05">
-          <img class="slide__img" src="src/images/mem--05.jpg" alt="">
-          <div class="slide__text">Это же тверк!</div>
-        </div>
-
-        <div class="slide__item slide__item--06">
-          <img class="slide__img" src="src/images/mem--06.jpg" alt="">
-          <div class="slide__text">Кто открыл бутылку?!</div>
-        </div>
-
       </div>
 
       <div class="slides__pager">

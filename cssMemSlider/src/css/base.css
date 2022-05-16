@@ -9,6 +9,9 @@
 }
 
 body {
+  display: flex;
+  max-width: 100vw;
+  min-height: 100vh;
   font: 1rem/1.2 Tahoma, Arial, sans-serif;
   font-weight: 400;
   color: var(--color-text);
@@ -16,14 +19,13 @@ body {
 }
 
 .container {
-  max-width: 38rem;
-  margin: 0 auto;
+  width: 38rem;
+  max-width: 100%;
+  margin: auto;
   padding: 2rem;
 }
 
-.header {
-  margin-bottom: 1rem;
-}
+.header {}
 .header h1 {
   margin: 0;
   font: 2rem/1 cursive, serif;
@@ -31,11 +33,11 @@ body {
 }
 
 .main {
+  margin: 1rem 0;
   text-align: center;
 }
 
 .footer {
-  margin-top: 1rem;
   font-family: cursive, serif;
   text-align: center;
 }
